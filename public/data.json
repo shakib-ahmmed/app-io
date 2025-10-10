@@ -1,0 +1,398 @@
+[
+    {
+        "image": "https://img.icons8.com/ios/50/task.png",
+        "title": "TaskFlow",
+        "companyName": "NextGen Apps Ltd.",
+        "id": 1,
+        "description": "TaskFlow is a smart productivity app designed to help you organize your daily tasks with ease. Plan your goals, set reminders, and track progress in real time. With a clean interface and intelligent suggestions, it makes your workflow smoother and helps you stay focused throughout the day.",
+        "size": 45,
+        "reviews": 12000,
+        "ratingAvg": 4.5,
+        "downloads": 1500000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 500
+            },
+            {
+                "name": "2 star",
+                "count": 800
+            },
+            {
+                "name": "3 star",
+                "count": 2000
+            },
+            {
+                "name": "4 star",
+                "count": 3500
+            },
+            {
+                "name": "5 star",
+                "count": 7200
+            }
+        ]
+    },
+    {
+        "image": "https://img.icons8.com/bubbles/100/dumbbell.png",
+        "title": "FitTrack",
+        "companyName": "HealthSync Co.",
+        "id": 2,
+        "description": "FitTrack is your ultimate fitness companion. It offers personalized workout plans, daily step tracking, water intake reminders, and a calorie counter. Whether you're a beginner or a pro, FitTrack adapts to your goals, helping you stay consistent and motivated on your fitness journey.",
+        "size": 60,
+        "reviews": 9500,
+        "ratingAvg": 4.6,
+        "downloads": 1100000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 300
+            },
+            {
+                "name": "2 star",
+                "count": 500
+            },
+            {
+                "name": "3 star",
+                "count": 1500
+            },
+            {
+                "name": "4 star",
+                "count": 3000
+            },
+            {
+                "name": "5 star",
+                "count": 5200
+            }
+        ]
+    },
+    {
+        "image": "https://img.icons8.com/clouds/100/note.png",
+        "title": "NoteWise",
+        "companyName": "Creative Minds",
+        "id": 3,
+        "description": "NoteWise is a simple yet powerful note-taking app that helps students, professionals, and creators capture their ideas effortlessly. It supports voice notes, image attachments, and smart categorization so you never lose track of important information again.",
+        "size": 30,
+        "reviews": 7800,
+        "ratingAvg": 4.3,
+        "downloads": 800000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 400
+            },
+            {
+                "name": "2 star",
+                "count": 600
+            },
+            {
+                "name": "3 star",
+                "count": 1800
+            },
+            {
+                "name": "4 star",
+                "count": 2500
+            },
+            {
+                "name": "5 star",
+                "count": 3500
+            }
+        ]
+    },
+    {
+        "image": "https://img.icons8.com/glyph-neue/64/budget.png",
+        "title": "BudgetEase",
+        "companyName": "FinTech Hub",
+        "id": 4,
+        "description": "BudgetEase is a smart budgeting app that helps you manage expenses, set savings goals, and track spending habits in real time. With visual charts, monthly reports, and AI-powered suggestions, staying on top of your finances has never been easier.",
+        "size": 40,
+        "reviews": 10200,
+        "ratingAvg": 4.7,
+        "downloads": 1250000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 200
+            },
+            {
+                "name": "2 star",
+                "count": 400
+            },
+            {
+                "name": "3 star",
+                "count": 1200
+            },
+            {
+                "name": "4 star",
+                "count": 2800
+            },
+            {
+                "name": "5 star",
+                "count": 7600
+            }
+        ]
+    },
+    {
+        "image": "https://img.icons8.com/color/48/around-the-globe.png",
+        "title": "TravelMate",
+        "companyName": "Wanderly Inc.",
+        "id": 5,
+        "description": "TravelMate is your digital travel assistant, offering curated trip plans, real-time navigation, offline maps, and language translation. Whether you’re exploring a new city or planning your dream vacation, TravelMate ensures a seamless and enjoyable travel experience.",
+        "size": 85,
+        "reviews": 8900,
+        "ratingAvg": 4.4,
+        "downloads": 980000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 600
+            },
+            {
+                "name": "2 star",
+                "count": 800
+            },
+            {
+                "name": "3 star",
+                "count": 1500
+            },
+            {
+                "name": "4 star",
+                "count": 2700
+            },
+            {
+                "name": "5 star",
+                "count": 4300
+            }
+        ]
+    },
+    {
+        "image": "https://img.icons8.com/officel/80/learning.png",
+        "title": "LangLearn",
+        "companyName": "EduBridge",
+        "id": 6,
+        "description": "LangLearn helps you master new languages through interactive lessons, speech recognition, daily quizzes, and gamified challenges. From beginner to advanced learners, it’s built to make language learning fun, engaging, and highly effective.",
+        "size": 70,
+        "reviews": 11500,
+        "ratingAvg": 4.8,
+        "downloads": 2000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 300
+            },
+            {
+                "name": "2 star",
+                "count": 400
+            },
+            {
+                "name": "3 star",
+                "count": 1200
+            },
+            {
+                "name": "4 star",
+                "count": 3500
+            },
+            {
+                "name": "5 star",
+                "count": 9100
+            }
+        ]
+    },
+    {
+        "image": "https://img.icons8.com/clouds/100/stack-of-photos.png",
+        "title": "PhotoPerfect",
+        "companyName": "PixelCraft Studio",
+        "id": 7,
+        "description": "PhotoPerfect is an all-in-one photo editing app that gives you professional tools with a beginner-friendly interface. Add filters, enhance lighting, remove backgrounds, and export high-resolution images with just a few taps.",
+        "size": 95,
+        "reviews": 15400,
+        "ratingAvg": 4.6,
+        "downloads": 2200000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 700
+            },
+            {
+                "name": "2 star",
+                "count": 1000
+            },
+            {
+                "name": "3 star",
+                "count": 2200
+            },
+            {
+                "name": "4 star",
+                "count": 4500
+            },
+            {
+                "name": "5 star",
+                "count": 9000
+            }
+        ]
+    },
+    {
+        "image": "https://img.icons8.com/ios-filled/50/head-with-brain.png",
+        "title": "MindSpace",
+        "companyName": "ZenTech",
+        "id": 8,
+        "description": "MindSpace offers guided meditations, relaxing soundscapes, breathing exercises, and sleep stories designed to help you reduce stress, improve focus, and sleep better. Whether you need a quick mental break or deep relaxation, MindSpace has you covered.",
+        "size": 55,
+        "reviews": 6700,
+        "ratingAvg": 4.9,
+        "downloads": 950000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 150
+            },
+            {
+                "name": "2 star",
+                "count": 200
+            },
+            {
+                "name": "3 star",
+                "count": 800
+            },
+            {
+                "name": "4 star",
+                "count": 2300
+            },
+            {
+                "name": "5 star",
+                "count": 5300
+            }
+        ]
+    },
+    {
+        "image": "https://img.icons8.com/bubbles/100/controller.png",
+        "title": "GameBoost",
+        "companyName": "Speedify Labs",
+        "id": 9,
+        "description": "GameBoost optimizes your device for peak gaming performance. With real-time network monitoring, ping stabilizer, and CPU optimization, you can enjoy smoother gameplay and reduced lag across all your favorite titles.",
+        "size": 35,
+        "reviews": 8200,
+        "ratingAvg": 4.2,
+        "downloads": 720000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 800
+            },
+            {
+                "name": "2 star",
+                "count": 1000
+            },
+            {
+                "name": "3 star",
+                "count": 2000
+            },
+            {
+                "name": "4 star",
+                "count": 2200
+            },
+            {
+                "name": "5 star",
+                "count": 2200
+            }
+        ]
+    },
+    {
+        "image": "https://img.icons8.com/bubbles/100/education.png",
+        "title": "EduPro",
+        "companyName": "Bright Learn",
+        "id": 10,
+        "description": "EduPro is an innovative e-learning platform offering thousands of video courses, interactive quizzes, and certifications from top instructors worldwide. Learn at your own pace and gain skills that help you grow in your career.",
+        "size": 120,
+        "reviews": 17500,
+        "ratingAvg": 4.6,
+        "downloads": 3100000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 900
+            },
+            {
+                "name": "2 star",
+                "count": 1200
+            },
+            {
+                "name": "3 star",
+                "count": 2600
+            },
+            {
+                "name": "4 star",
+                "count": 5000
+            },
+            {
+                "name": "5 star",
+                "count": 9800
+            }
+        ]
+    },
+    {
+        "image": "https://img.icons8.com/color/48/restaurant-.png",
+        "title": "FoodGo",
+        "companyName": "QuickServe",
+        "id": 11,
+        "description": "FoodGo brings your favorite meals to your doorstep. Discover nearby restaurants, track your order in real time, and enjoy exclusive deals. It’s fast, convenient, and built to make your food ordering experience effortless.",
+        "size": 75,
+        "reviews": 9500,
+        "ratingAvg": 4.4,
+        "downloads": 1800000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 500
+            },
+            {
+                "name": "2 star",
+                "count": 900
+            },
+            {
+                "name": "3 star",
+                "count": 2000
+            },
+            {
+                "name": "4 star",
+                "count": 2800
+            },
+            {
+                "name": "5 star",
+                "count": 5300
+            }
+        ]
+    },
+    {
+        "image": "https://img.icons8.com/dotty/80/cyber-security.png",
+        "title": "SafeNet",
+        "companyName": "SecureTech",
+        "id": 12,
+        "description": "SafeNet protects your privacy with a fast and secure VPN. Browse anonymously, block trackers, and access your favorite content safely from anywhere. With military-grade encryption, SafeNet gives you complete online freedom.",
+        "size": 50,
+        "reviews": 12000,
+        "ratingAvg": 4.7,
+        "downloads": 2400000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 300
+            },
+            {
+                "name": "2 star",
+                "count": 600
+            },
+            {
+                "name": "3 star",
+                "count": 1700
+            },
+            {
+                "name": "4 star",
+                "count": 3300
+            },
+            {
+                "name": "5 star",
+                "count": 8100
+            }
+        ]
+    }
+]
