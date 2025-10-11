@@ -26,7 +26,7 @@ const Apps = () => {
                 Explore All Apps on the Market developed by us. We code for Millions
             </p>
 
-            <div className='flex justify-between py-5 items-center '>
+            <div className='flex justify-between w-full lg:px-60 p-6 items-center '>
                 <h1 className='text-3xl font-semibold'>({searchedApps.length}) Apps Found</h1>
                 <label className='input input-bordered'>
                     <input className='input'

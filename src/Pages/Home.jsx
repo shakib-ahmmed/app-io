@@ -46,7 +46,7 @@ const Home = () => {
 
                 <div className="flex flex-col md:flex-row justify-center gap-1">
                     <div className="flex-1 p-4 text-center ">
-                        <h3 className="text-[20px] font-medium text-white">Total Downloads</h3>
+                        <h3 className="text-[20px] font-medium text-white">Total Downloads </h3>
                         <h1 className="lg:text-[62px] text-[40px] font-bold mt-1 text-white">29.6M</h1>
                         <h3 className="text-[20px] text-white mt-1">15% more than last month</h3>
                     </div>

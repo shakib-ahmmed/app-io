@@ -54,7 +54,7 @@ const AppsDetails = () => {
                         <div className="flex items-center gap-2">
                             <Download className="text-green-500" />
                             <div>
-                                <p className="font-bold text-lg">{downloads}</p>
+                                <p className="font-bold text-lg">{downloads} <span>M</span> </p>
                                 <p className="text-xs text-gray-500">Downloads</p>
                             </div>
                         </div>
