@@ -15,7 +15,7 @@ const AppsDetails = () => {
     const handleAddToInstallList = () => {
         const existingList = JSON.parse(localStorage.getItem('Installed')) || [];
 
-        const isDuplicate = existingList.some(p => p.id === app.id);
+        const isDuplicate = existingList.some(a => a.id === app.id);
         if (isDuplicate) {
             return alert('Sorry, this app is already installed!');
         }
@@ -67,6 +67,23 @@ const AppsDetails = () => {
                         Install Now ({size})
                     </button>
                 </div>
+            </div>
+            <div className="space-y-2 ">
+                {ratings && ratings.length > 0 ? ratings.map((r, i) => {
+                    const totalReviews = reviews || 1;
+                    const percent = ((r.count / totalReviews) * 100) + "%";
+                    return (
+                        <div key={i} className="flex items-center gap-4">
+                            <span className="w-12 text-sm text-gray-600">{r.name}</span>
+                            <div className="w-full bg-gray-200 rounded-full h-3">
+                                <div
+                                    className="bg-orange-500 h-3 rounded-full"
+                                    style={{ width: percent }}
+                                ></div>
+                            </div>
+                        </div>
+                    );
+                }) : <p>No ratings yet</p>}
             </div>
 
 
