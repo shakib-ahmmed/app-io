@@ -111,7 +111,7 @@ const Installation = () => {
                     </div>
                 )}
             </div>
-            <ToastContainer></ToastContainer>
+            <ToastContainer/>
         </div >
     );
 };

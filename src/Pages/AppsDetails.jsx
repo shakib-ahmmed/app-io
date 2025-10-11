@@ -2,25 +2,36 @@ import React from 'react';
 import { useParams } from 'react-router';
 import { Download, Star, MessageSquare } from 'lucide-react';
 import useApps from '../../public/Hooks/allapps';
+import { toast, ToastContainer } from 'react-toastify';
+
+
 
 const AppsDetails = () => {
     const { id } = useParams();
     const { apps, loading, } = useApps();
-
     const app = apps.find(a => a.id === Number(id));
     if (loading) return <p> Loading........ </p>
-
     const { image, title, downloads, ratingAvg, companyName, reviews, size, ratings, description } = app || {}
+
+
+
 
     const handleAddToInstallList = () => {
         const existingList = JSON.parse(localStorage.getItem('Installed')) || [];
-
         const isDuplicate = existingList.some(a => a.id === app.id);
         if (isDuplicate) {
-            return alert('Sorry, this app is already installed!');
+            return toast.error('App Already Installed');
         }
         const updatedList = [...existingList, app];
         localStorage.setItem('Installed', JSON.stringify(updatedList));
+
+        toast.success('App installed successfully!', {
+            position: "top-center",
+            autoClose: 2000,
+            theme: "colored",
+        });
+
+
 
     };
 
@@ -91,6 +102,7 @@ const AppsDetails = () => {
                 <h2 className="text-lg font-semibold mb-4">Description</h2>
                 <p className="text-gray-700">{description}</p>
             </div>
+            <ToastContainer />
         </div>
 
     );
