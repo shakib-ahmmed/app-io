@@ -5,10 +5,10 @@
         "companyName": "NextGen Apps Ltd.",
         "id": 1,
         "description": "TaskFlow is a smart productivity app designed to help you organize your daily tasks with ease. Plan your goals, set reminders, and track progress in real time. With a clean interface and intelligent suggestions, it makes your workflow smoother and helps you stay focused throughout the day.",
-        "size": 45,
+        "size": "45MB",
         "reviews": 12000,
         "ratingAvg": 4.5,
-        "downloads": 1500000,
+        "downloads": "1.5M",
         "ratings": [
             {
                 "name": "1 star",
@@ -38,10 +38,10 @@
         "companyName": "HealthSync Co.",
         "id": 2,
         "description": "FitTrack is your ultimate fitness companion. It offers personalized workout plans, daily step tracking, water intake reminders, and a calorie counter. Whether you're a beginner or a pro, FitTrack adapts to your goals, helping you stay consistent and motivated on your fitness journey.",
-        "size": 60,
+        "size": "60MB",
         "reviews": 9500,
         "ratingAvg": 4.6,
-        "downloads": 1100000,
+        "downloads": "1.1M",
         "ratings": [
             {
                 "name": "1 star",
@@ -71,10 +71,10 @@
         "companyName": "Creative Minds",
         "id": 3,
         "description": "NoteWise is a simple yet powerful note-taking app that helps students, professionals, and creators capture their ideas effortlessly. It supports voice notes, image attachments, and smart categorization so you never lose track of important information again.",
-        "size": 30,
+        "size": "30MB",
         "reviews": 7800,
         "ratingAvg": 4.3,
-        "downloads": 800000,
+        "downloads": "800K",
         "ratings": [
             {
                 "name": "1 star",
@@ -104,10 +104,10 @@
         "companyName": "FinTech Hub",
         "id": 4,
         "description": "BudgetEase is a smart budgeting app that helps you manage expenses, set savings goals, and track spending habits in real time. With visual charts, monthly reports, and AI-powered suggestions, staying on top of your finances has never been easier.",
-        "size": 40,
+        "size": "40MB",
         "reviews": 10200,
         "ratingAvg": 4.7,
-        "downloads": 1250000,
+        "downloads": "1.2M",
         "ratings": [
             {
                 "name": "1 star",
@@ -137,10 +137,10 @@
         "companyName": "Wanderly Inc.",
         "id": 5,
         "description": "TravelMate is your digital travel assistant, offering curated trip plans, real-time navigation, offline maps, and language translation. Whether you’re exploring a new city or planning your dream vacation, TravelMate ensures a seamless and enjoyable travel experience.",
-        "size": 85,
+        "size": "85MB",
         "reviews": 8900,
         "ratingAvg": 4.4,
-        "downloads": 980000,
+        "downloads": "980K",
         "ratings": [
             {
                 "name": "1 star",
@@ -170,10 +170,10 @@
         "companyName": "EduBridge",
         "id": 6,
         "description": "LangLearn helps you master new languages through interactive lessons, speech recognition, daily quizzes, and gamified challenges. From beginner to advanced learners, it’s built to make language learning fun, engaging, and highly effective.",
-        "size": 70,
+        "size": "70MB",
         "reviews": 11500,
         "ratingAvg": 4.8,
-        "downloads": 2000000,
+        "downloads": "2M",
         "ratings": [
             {
                 "name": "1 star",
@@ -203,10 +203,10 @@
         "companyName": "PixelCraft Studio",
         "id": 7,
         "description": "PhotoPerfect is an all-in-one photo editing app that gives you professional tools with a beginner-friendly interface. Add filters, enhance lighting, remove backgrounds, and export high-resolution images with just a few taps.",
-        "size": 95,
+        "size": "95MB",
         "reviews": 15400,
         "ratingAvg": 4.6,
-        "downloads": 2200000,
+        "downloads": "2.2M",
         "ratings": [
             {
                 "name": "1 star",
@@ -236,10 +236,10 @@
         "companyName": "ZenTech",
         "id": 8,
         "description": "MindSpace offers guided meditations, relaxing soundscapes, breathing exercises, and sleep stories designed to help you reduce stress, improve focus, and sleep better. Whether you need a quick mental break or deep relaxation, MindSpace has you covered.",
-        "size": 55,
+        "size": "55MB",
         "reviews": 6700,
         "ratingAvg": 4.9,
-        "downloads": 950000,
+        "downloads": "950K",
         "ratings": [
             {
                 "name": "1 star",
@@ -269,10 +269,10 @@
         "companyName": "Speedify Labs",
         "id": 9,
         "description": "GameBoost optimizes your device for peak gaming performance. With real-time network monitoring, ping stabilizer, and CPU optimization, you can enjoy smoother gameplay and reduced lag across all your favorite titles.",
-        "size": 35,
+        "size": "35MB",
         "reviews": 8200,
         "ratingAvg": 4.2,
-        "downloads": 720000,
+        "downloads": "720K",
         "ratings": [
             {
                 "name": "1 star",
@@ -302,10 +302,10 @@
         "companyName": "Bright Learn",
         "id": 10,
         "description": "EduPro is an innovative e-learning platform offering thousands of video courses, interactive quizzes, and certifications from top instructors worldwide. Learn at your own pace and gain skills that help you grow in your career.",
-        "size": 120,
+        "size": "120MB",
         "reviews": 17500,
         "ratingAvg": 4.6,
-        "downloads": 3100000,
+        "downloads": "3.1M",
         "ratings": [
             {
                 "name": "1 star",
@@ -335,10 +335,10 @@
         "companyName": "QuickServe",
         "id": 11,
         "description": "FoodGo brings your favorite meals to your doorstep. Discover nearby restaurants, track your order in real time, and enjoy exclusive deals. It’s fast, convenient, and built to make your food ordering experience effortless.",
-        "size": 75,
+        "size": "75MB",
         "reviews": 9500,
         "ratingAvg": 4.4,
-        "downloads": 1800000,
+        "downloads": "1.8M",
         "ratings": [
             {
                 "name": "1 star",
@@ -368,10 +368,10 @@
         "companyName": "SecureTech",
         "id": 12,
         "description": "SafeNet protects your privacy with a fast and secure VPN. Browse anonymously, block trackers, and access your favorite content safely from anywhere. With military-grade encryption, SafeNet gives you complete online freedom.",
-        "size": 50,
+        "size": "50MB",
         "reviews": 12000,
         "ratingAvg": 4.7,
-        "downloads": 2400000,
+        "downloads": "2.4M",
         "ratings": [
             {
                 "name": "1 star",

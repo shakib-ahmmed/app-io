@@ -79,7 +79,7 @@ const Home = () => {
                     ))}
                 </div>
                 <div className='flex justify-between py-5 items-center '>
-                    <Link className='btn btn-outline' to='./app'>See All</Link>
+                    <Link className="btn bg-gradient-to-r from-[#5a22df]  to-[#9557eb] text-white font-semibold w-[145px] h-[45px] hover:scale-105 transition ease-in-out" to='./app'>See All</Link>
                 </div>
             </div >
 

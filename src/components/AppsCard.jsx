@@ -21,11 +21,11 @@ const AppsCard = ({ apps }) => {
                     </h2>
 
                     <div className="card-actions text-center justify-between mt-4">
-                        <div className=" bg-gray-100 h-8 w-22 flex items-center gap-1 text-green-400">
+                        <div className=" bg-gray-100 h-7 w-13 flex items-center gap-1 text-green-400">
                             <Download className="w-5 h-5" />
                             {downloads}
                         </div>
-                        <div className=" bg-amber-100 h-8 w-12 flex items-center gap-1 text-orange-400">
+                        <div className=" bg-amber-100 h-7 w-12 flex items-center gap-1 text-orange-400">
                             <Star className="w-5 h-5 text-yellow-400 fill-yellow-400" />
                             {ratingAvg}
                         </div>
