@@ -21,7 +21,6 @@ const Apps = () => {
     return (
         <div className='flex flex-col items-center justify-center text-center pb-10 bg-gray-100'>
 
-
             <h1 className='text-[48px] flex-col block gap-0 font-bold'>
                 Our All Applications
             </h1>

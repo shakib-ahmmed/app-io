@@ -1,6 +1,10 @@
 import React from 'react';
 import { NavLink } from 'react-router';
 
+
+
+
+
 const Navbar = () => {
     return (
         <div>
@@ -21,15 +25,18 @@ const Navbar = () => {
                                 <li>
                                     <a>Apps</a>
                                 </li>
+                            </NavLink >
+
+                            <NavLink to='/Installation'>
+                                <li>
+                                    <a>Installation</a>
+                                </li>
                             </NavLink>
-                            <li>
-                                <a>Installation</a>
-                            </li>
                         </ul>
                     </div >
                     <div className='flex items-center'>
                         <NavLink to='/'>
-                            <a className="text-xl flex items-center"><img className='w-[40px] h-[40px]' src="/src/assets/logo.png" alt="logo.png" /> <span className='font-bold'>APP.IO</span></a>
+                            <a className="text-xl flex items-center"><img className='w-[40px] h-[40px]' src="/logo.png" alt="logo.png" /> <span className='font-bold'>APP.IO</span></a>
                         </NavLink>
                     </div>
 
