@@ -88,7 +88,7 @@ const AppsDetails = () => {
                     </div>
 
                     <button onClick={handleAddToInstallList} disabled={isInstalled} className={`mt-4 px-6 py-2 rounded-lg font-medium 
-                        ${isInstalled ? "bg-gray-400 text-white" : " hover:cursor-pointer bg-green-600 text-white"} `} >
+                        ${isInstalled ? "bg-gray-400 text-white" : " bg-green-500 hover:bg-green-600 text-white"} `} >
 
                         {isInstalled ? "Installed" : `Install Now (${size})`}
                     </button>

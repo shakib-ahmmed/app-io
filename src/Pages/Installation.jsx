@@ -110,7 +110,7 @@ const Installation = () => {
 
                                         <button
                                             onClick={() => handleRemove(a.id)}
-                                            className="lg:mt-4 h-10 bg-green-500 text-white px-6 py-2 rounded-lg font-medium hover:bg-green-600"
+                                            className="lg:mt-4 h-10 text-white px-6 py-2 rounded-lg font-medium hover:cursor-pointer bg-green-500 hover:bg-green-600 "
                                         >
                                             Uninstall
                                         </button>
