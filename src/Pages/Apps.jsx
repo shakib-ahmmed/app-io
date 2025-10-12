@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import AppsCard from '../components/AppsCard';
 import useApps from '../../public/Hooks/allapps';
-
+import img from '../assets/App-Error.png'
+import { Link } from 'react-router';
 
 const Apps = () => {
 
@@ -19,6 +20,8 @@ const Apps = () => {
 
     return (
         <div className='flex flex-col items-center justify-center text-center pb-10 bg-gray-100'>
+
+
             <h1 className='text-[48px] flex-col block gap-0 font-bold'>
                 Our All Applications
             </h1>
@@ -37,14 +40,32 @@ const Apps = () => {
                 </label>
             </div>
 
-            <div className='grid grid-cols-1 md:grid-cols-2 mg:grid-col-2 lg:grid-cols-4 gap-4 pt-10'>
-                {searchedApps.map(apps => (
-                    <div key={apps.id}>
-                        <AppsCard apps={apps} />
-                    </div>
-                ))}
-            </div>
+            {searchedApps.length === 0 ? (
+                <div className='flex flex-col justify-center items-center h-screen'>
+                    <img src={img} alt="App-Error.png" />
+                    <h1 className='text-black text-[48px]  text-center'> OPPS!! APP NOT FOUND </h1>
+                    <p className='text-[20px] text-center pb-3'>The App you are requesting is not found on our system.  please try another apps <br /> Thanks </p>
+                    <Link to='/'>
+                        <a className="btn bg-gradient-to-r from-[#5a22df]  to-[#9557eb] text-white font-semibold w-[145px] h-[45px] hover:scale-105 transition ease-in-out ">
+                            GO BACK! </a>
+                    </Link>
 
+                </div>) : (
+                <>
+
+                    <div className='grid grid-cols-1 md:grid-cols-2 mg:grid-col-2 lg:grid-cols-4 gap-4 pt-10'>
+                        {searchedApps.map(apps => (
+                            <div key={apps.id}>
+                                <AppsCard apps={apps} />
+                            </div>
+                        ))}
+
+
+
+                    </div>
+                </>
+            )
+            }
         </div >
     )
 }

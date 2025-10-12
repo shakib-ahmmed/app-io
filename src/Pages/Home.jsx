@@ -22,8 +22,6 @@ const Home = () => {
             </h1>
             <p className='text-gray-500'>At APP.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. <br /> Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
 
-            {/* Buttons */}
-
             <div className="flex gap-4 mt-6">
 
                 <a href="https://play.google.com/store" target="_blank" className="flex items-center gap-2 bg-[#632EE3] text-white px-6 py-2  hover:bg-[#5320d1] transition" >
@@ -34,8 +32,6 @@ const Home = () => {
                 <a href="https://www.apple.com/app-store/" target="_blank" className="flex items-center gap-2 bg-[#9F62F2] text-white px-6 py-2 hover:bg-[#8640e8] transition" >                    <FaApple size={22} /> App Store
                 </a>
             </div>
-
-            {/* Banner Img */}
 
             <img className="mt-10" src={img} alt="hero" />
 
