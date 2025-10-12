@@ -61,7 +61,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end ">
-                    <a href="https://github.com/shakib-ahmmed/app-io" target="_blank" className="btn bg-gradient-to-r from-[#5a22df]  to-[#9557eb] text-white font-semibold w-[145px] h-[45px]"><span><img src="src/assets/git.png" alt="" /></span>Contribute</a>
+                    <a href="https://github.com/shakib-ahmmed/app-io" target="_blank" className="btn bg-gradient-to-r from-[#5a22df]  to-[#9557eb] text-white font-semibold w-[145px] h-[45px]"><span><img src="git.png" alt="git.png" /></span>Contribute</a>
                 </div>
             </div>
         </div>

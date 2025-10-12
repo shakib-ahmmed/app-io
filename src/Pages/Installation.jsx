@@ -12,7 +12,6 @@ const Installation = () => {
     const [installlist, setInstalllist] = useState([]);
     const [sortOrder, setSortOrder] = useState('none');
 
-    // Load from localStorage
     useEffect(() => {
         const savedList = JSON.parse(localStorage.getItem('Installed')) || [];
         setInstalllist(savedList);
