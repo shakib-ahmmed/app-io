@@ -3,10 +3,11 @@ import AppsCard from '../components/AppsCard';
 import useApps from '../../public/Hooks/allapps';
 import img from '../assets/App-Error.png'
 import { Link } from 'react-router';
+import LoadingSpinner from '../components/LoadingSpinner';
 
 const Apps = () => {
 
-    const { apps } = useApps()
+    const { apps, loading, } = useApps()
     const [search, setSearch] = useState('')
     const term = search.trim().toLocaleLowerCase()
     const searchedApps = term
@@ -15,8 +16,8 @@ const Apps = () => {
         )
         : apps
 
-    console.log(searchedApps)
 
+    if (loading) return <LoadingSpinner />
 
     return (
         <div className='flex flex-col items-center justify-center text-center pb-10 bg-gray-100'>

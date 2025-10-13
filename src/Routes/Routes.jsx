@@ -6,6 +6,7 @@ import Apps from '../Pages/Apps';
 import Installation from '../Pages/Installation';
 import ErrorPage from '../Pages/ErrorPage';
 import AppsDetails from '../Pages/AppsDetails';
+import LoadingSpinner from '../components/LoadingSpinner';
 const router = createBrowserRouter([
     {
         path: '/',

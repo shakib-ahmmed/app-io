@@ -6,7 +6,7 @@ const Footer = () => {
             <div className="footer flex pb-5 lg:flex-row justify-between items-center lg:footer-horizontal gap-0 pt-5 text-neutral-content ">
                 <aside>
                     <nav>
-                        <a className="text-xl items-center flex items-le"><img className='w-[40px] h-[40px]' src="/src/assets/logo.png" alt="logo.png" /> <span className='font-bold'>APP.IO</span></a>
+                        <a className="text-xl items-center flex items-le"><img className='w-[40px] h-[40px]' src="/logo.png" alt="logo.png" /> <span className='font-bold'>APP.IO</span></a>
                     </nav>
                 </aside>
                 <nav className='flex flex-col justify-center pt-5 lg:justify-end gap-4'>

@@ -5,14 +5,18 @@ import img from '../assets/hero.png'
 import AppsCard from '../components/AppsCard';
 import Apps from './Apps';
 import useApps from '../../public/Hooks/allapps';
+import LoadingSpinner from '../components/LoadingSpinner';
 
 const Home = () => {
 
 
-    const { apps, loading, error } = useApps()
+    const { apps, loading, } = useApps()
 
     const featuredApps = apps.slice(0, 8)
     console.log(apps)
+
+    if (loading) return <LoadingSpinner />
+
 
     return (
         <div className='flex flex-col items-center justify-center text-center bg-gray-100'>
